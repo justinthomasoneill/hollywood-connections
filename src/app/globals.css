@@ -1,0 +1,16 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: #080808;
+  color: #f0e6c8;
+  font-family: 'Playfair Display', serif;
+}
+
+input:focus {
+  outline: none;
+  border-color: #d4af37 !important;
+  box-shadow: 0 0 0 2px rgba(212,175,55,0.15);
+}
+
+button { transition: all 0.15s ease; }
+button:hover:not(:disabled) { opacity: 0.88; transform: translateY(-1px); }
